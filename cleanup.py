@@ -44,6 +44,7 @@ def clean_up():
             .splitlines()
         )
         if connection_name.startswith("Proton VPN")
+        or connection_name.startswith("ProtonVPN")
         or connection_name.startswith("pvpn-")
     ]
     if not protonvpn_connection_names:
